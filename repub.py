@@ -1,6 +1,6 @@
 # (c) Stefan Countryman, 2020
 
-"(Re)port (Pub)lisher: serialization types for structured inputs"
+"(Re)port (Pub)lisher: report serialization types for structured inputs"
 
 __version__ = '0.1.0'
 
@@ -12,6 +12,7 @@ from typing import (
     Any,
     Tuple,
     Callable,
+    Dict,
 )
 
 
