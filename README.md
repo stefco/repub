@@ -60,6 +60,10 @@ admins = [
 ]
 ```
 
+We can now define our reporter, which takes a list of column names followed by
+their data source properties, an optional transform to apply to each column,
+and additional arguments to pass to `tabulate`:
+
 ```python
 >>> reporter = TabularModelList[
 ...     ['Name', 'Started', 'Active', 'Days', 'Post/Day']
